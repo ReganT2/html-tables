@@ -1,4 +1,53 @@
-body {
+/*body {
 	backgorund-color: #000000 ; 
 
+}*/
+
+#computers {
+	font-family: Arial;
+	margin :100px 0;
+	border : 1px solid #333333; 
+	border-collapse: collapse;
+	/*min-width: 800px; */  /*To control the width to stop stretch and squash*/
+}
+
+#computers caption {
+	font-size :24px;
+	margin-bottom: 15px;
+}
+
+#computers th {
+	background-color: #3498db;
+	color:white;
+	padding:5px 10px;
+	border:1px solid #2980b9;
+
+}
+
+#computers td:first-child {
+	font-weight:bold;
+}
+
+#computers tr:nth-child(2n) {
+	background-color :#dddddd; 
+}
+
+#computers td {
+	padding:5px;
+	text-align: 
+}
+
+#computers tr:hover {
+	background-color: orange;
+/*	color:white;*/
+}
+
+.cpu-pro,
+.cpu-standard {
+	width:65px;
+}
+
+#computers td:nth-child(3),
+#computers td:nth-child(4){
+	text-align: center;
 }
